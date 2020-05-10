@@ -1,0 +1,195 @@
+body{
+	margin: 0; /* 여백 제거 */
+	padding: 0; /* 여백 제거 */
+}
+
+.nav{
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.nav_logo
+{
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.nav_center{
+    text-align: center;
+}
+
+.nav ul{
+    width: 1280px;
+    margin: 0 auto;
+    padding-top:20px;
+    padding-right: 50px;    
+    margin-left: 165px;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav a{
+    font-family: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    color:#000;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.nav a:hover{text-decoration: none; animation: a 0.5s ease-in-out; -webkit-animation: a 0.5s ease-in-out; 
+    color: black;}
+    @-webkit-keyframes a {0%{color: #fff}100%{color: black}}
+    @keyframes a {0%{color: #fff}100%{color: black}}
+
+.wrap{
+    width:95%;
+	padding: 30px;
+    margin: 0 auto;
+}
+
+.body_txt{
+    margin: 0 auto;
+    width: 1280px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: inherit;
+    color: black;
+    
+}
+
+.body_menu
+{
+	height: 550px;
+    background: url(../images/bg.jpg)repeat-x;
+    color: #fff;
+    width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.body_menu #about{
+	color: #000;
+}
+
+.body_menu ul
+{
+    padding-top: 60px;
+	list-style: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.body_menu li
+{
+	width: 280px;
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+    float: left;
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+.body_menu ul dl
+{
+	width: 280px;
+    height: 330px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.body_menu ul dt
+{
+	font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 145px 0;
+}
+
+.body_menu .info
+{
+	margin : 15px 180px 80px;
+}
+
+.body_menu .info dt,.body_menu .info dd{display: none}
+
+.info a
+{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 860px;
+}
+
+.info dt
+{
+	font-weight: bold;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+}
+
+.info dd
+{
+    line-height: 1.5em;
+    margin-left: 0px;
+}
+
+.language
+{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.lang1, .lang2, .lang3
+{
+    width: 325px;
+    text-align: center;   
+    margin: 0 auto;
+}
+
+.language h2{
+    font-size: 2.5rem;
+}
+
+.language ul{
+    list-style: none;
+}
+
+.language li{
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+
+/* footer */
+footer{
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	color: gainsboro;
+	background-color:chocolate;
+    height: 120px;
+}
+
+.velog{
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 10px;
+}

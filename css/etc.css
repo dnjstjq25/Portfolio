@@ -1,0 +1,101 @@
+/* about.html */
+.intro
+{
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+}
+
+.port{
+    border-bottom: 3px solid chocolate;
+}
+
+.port li{
+    color: chocolate;
+}
+
+.intro_img{
+    width: 635px;
+    margin-right: 10px;   
+}
+
+/* port.html */
+.slide{
+    margin: 0 auto;
+}
+
+.slide-menu{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide-menu li{
+    list-style: none;
+    display: inline-block;    
+    width: 180px;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.slide-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.php, .app, .java{
+    background: chocolate;
+    margin: 0 auto;
+    width: 1280px;
+    padding-top: 15px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+}
+
+.php_img, .app_img, .java_img{
+    width: 580px;
+    text-align: center;
+}
+
+.php_img img, .app_img img, .java_img img{
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.php_txt, .app_txt, .java_txt{
+    width: 700px;
+    text-align: center;
+    margin-left: -10px;
+}
+
+.php_txt img, .app_txt img, .java_txt img{
+    border-radius: 10px 10px 10px 10px;
+}
+
+.php_txt a, .app_txt a, .java_txt a, p{
+    font-family: inherit;
+    text-decoration: none;
+    color:wheat;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+
+.php_img img:hover, .app_img img:hover, .java_img img:hover {
+   transform: scale(1.5);
+   -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+   -ms-transform: scale(1.5);
+   -o-transform: scale(1.5);
+}
