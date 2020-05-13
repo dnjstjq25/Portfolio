@@ -28,6 +28,7 @@
     width: 1280px;
     margin: 0 auto;
     text-align: center;
+    font-family: 'neo';
 }
 
 .slide-menu li{
@@ -82,7 +83,7 @@
 }
 
 .php_txt a, .app_txt a, .java_txt a, p{
-    font-family: inherit;
+    font-family: 'neo';
     text-decoration: none;
     color:wheat;
     font-size: 20px;
